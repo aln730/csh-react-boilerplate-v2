@@ -46,7 +46,7 @@ export const NoSSOUserInfo: UserInfo = {
 };
 
 export const NoSSOProfilePicture =
-  "https://cdn.discordapp.com/attachments/719366780606480384/1035722437049982986/csh.png";
+  "https://assets.csh.rit.edu/pubsite/csh_logo_square.svg";
 
 export const getUseOidcHook = () => {
   return SSOEnabled ? useOidc : useOidcNoSSO;
